@@ -36,7 +36,9 @@ pip install -r requirements.txt
 
 ## Pretrained model
 
-`models/dbstrack.pth` is the published model (80 epochs). It is loaded by default by `test.py`.
+`models/dbstrack.pth` is the published model, the one evaluated in the paper. It is the last epoch of the
+fine-tuning run (`model_e20.pth` of run 2 below), which starts from the 60-epoch checkpoint of run 1: 80 training
+epochs in total. It is loaded by default by `test.py`.
 
 ## Evaluation
 
@@ -97,3 +99,8 @@ efficient template modulation of AsymTrack.
 ## Citation
 
 The paper is under review. A BibTeX entry will be added here after publication.
+
+## License
+
+The code is released under the [MIT License](LICENSE). The pretrained model is provided for research purposes;
+its use is also subject to the terms of the training datasets (GOT-10k, LaSOT, COCO).
