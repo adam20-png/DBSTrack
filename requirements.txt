@@ -1,0 +1,8 @@
+# versions of the reference run (Ubuntu 22.04, RTX 4060 Ti, Python 3.13)
+torch==2.14.1
+torchvision==0.29.1
+numpy
+opencv-python
+got10k==0.1.3
+matplotlib        # got10k plots
+wget              # imported by got10k
