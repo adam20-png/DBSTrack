@@ -23,8 +23,8 @@ anchor-free head.
 | UAV123 | AUC | 63.4 |
 | DTB70 | AUC | 64.5 |
 
-Speed (batch 1, full tracker with re-detection and template update): about 290 FPS on an RTX 4060 Ti GPU and
-78 FPS on a Ryzen 5 7600X CPU.
+Speed (batch 1, full tracker with re-detection and template update): about 285 FPS on an RTX 4060 Ti GPU and
+80 FPS on a Ryzen 5 7600X CPU.
 
 ## Installation
 
